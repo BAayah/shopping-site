@@ -1,12 +1,18 @@
 import './App.css'
+import Articles from './components/Articles/Articles'
+import { Footer } from './components/FooterKanykei/Footer'
+import { ProductCardRead } from './components/ProductCardRead/ProductCardRead'
+
+
+
 
 function App() {
   
 
   return (
     <>
-      <Header />
-      <Content/>
+    <Articles/>
+      <ProductCardRead/>
       <Footer/>
     </>
   )
